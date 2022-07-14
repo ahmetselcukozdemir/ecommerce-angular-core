@@ -1,6 +1,12 @@
+using eCommerceAPI.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+//persistence'den statik method olarak geliyor
+builder.Services.AddPersistanceServices();
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

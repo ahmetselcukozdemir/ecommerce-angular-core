@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6BEIC6ouihyXzyKdolVPCqZ7fGEsPgBaGrvjFO1rFfkr7Vt7TyGkQ71R0luQAjJDXFcZVljQ6JEN2Nq0h4JaHA==",
+  "dgSpecHash": "jWNwN0XiI+IwEB9NlkcpbjRyzrhSY2CPX9y8y8n1mNvxgNI895cbn6g7WiocT49vPC1HrJl5xaB/pvP3RZzb0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\ecommerce-angular-core\\eCommerceAPI\\Presentation\\eCommerceAPI.API\\eCommerceAPI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
