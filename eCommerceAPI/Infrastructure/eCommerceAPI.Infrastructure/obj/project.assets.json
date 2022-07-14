@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "eCommerceAPI.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "eCommerceAPI.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eCommerceAPI.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eCommerceAPI.Application.dll": {}
+        }
+      },
+      "eCommerceAPI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/eCommerceAPI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eCommerceAPI.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eCommerceAPI.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/eCommerceAPI.Application/eCommerceAPI.Application.csproj",
+      "msbuildProject": "../../Core/eCommerceAPI.Application/eCommerceAPI.Application.csproj"
+    },
+    "eCommerceAPI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/eCommerceAPI.Domain/eCommerceAPI.Domain.csproj",
+      "msbuildProject": "../../Core/eCommerceAPI.Domain/eCommerceAPI.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "eCommerceAPI.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\ecommerce-angular-core\\eCommerceAPI\\Infrastructure\\eCommerceAPI.Infrastructure\\eCommerceAPI.Infrastructure.csproj",
+      "projectName": "eCommerceAPI.Infrastructure",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\ecommerce-angular-core\\eCommerceAPI\\Infrastructure\\eCommerceAPI.Infrastructure\\eCommerceAPI.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\ecommerce-angular-core\\eCommerceAPI\\Infrastructure\\eCommerceAPI.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\user\\Documents\\GitHub\\ecommerce-angular-core\\eCommerceAPI\\Core\\eCommerceAPI.Application\\eCommerceAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\GitHub\\ecommerce-angular-core\\eCommerceAPI\\Core\\eCommerceAPI.Application\\eCommerceAPI.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
