@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1oshD/2fU3P7KxyqJsYHwSM3R8DKXyPhiiHDqBebzAXOl9rGXHxt5AwMjZHhm6XhqJQFk/BGjegdKmJBF7Kp1A==",
+  "dgSpecHash": "buD7up3kvtrMvaCHDTfxGfDuiu0VK8Kn8qyVPzdIV9rHl19LEqekfipV2P765WXvl3khrKpcqOZthLFMUi3EKA==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\ecommerce-angular-core\\eCommerceAPI\\Infrastructure\\eCommerceAPI.Persistence\\eCommerceAPI.Persistence.csproj",
   "expectedPackageFiles": [
